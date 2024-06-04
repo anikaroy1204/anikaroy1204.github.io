@@ -17,7 +17,7 @@ const Button = ({ children, onClick }: Props) => {
         const nextIndex = (currentIndex + 1) % colors.length;
         return colors[nextIndex];
       });
-    }, 1000); // Change color every 1 second
+    }, 250); // Change color every 1 second
 
     return () => {
       // Clean up the timer when the component unmounts
