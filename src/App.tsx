@@ -8,8 +8,8 @@ const App = () => {
       className="d-flex align-items-center justify-content-center"
       style={{ height: window.innerHeight }}
     >
-      <Button onClick={() => setAlert(true)}>Gundu</Button>
-      {alert && <h1>Pontu</h1>}
+      <Button onClick={() => setAlert(true)}>Didi is </Button>
+      {alert && <h1> Gundu Pontu</h1>}
     </div>
   );
 };
